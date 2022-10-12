@@ -1,0 +1,15 @@
+package com.example.kobinath.listviy;
+
+public class WinterIsComing {
+
+    public static String[] names = new String[] { "ლაშა სირაძე " ,"გიორგი გიორგაძე "  , "ფრიდონ ხალვაში " , "ალექსი ალექსიძე ", "ვაჟა ფშაველა ", "გალაკთიონ ტაბიძე "
+
+
+    };
+
+    public static String[] images = new String[] { "https://www.facebook.com/ENHYPEN/photos/pcb.266788548510915/266782931844810/?type=3&theater" ,"https://www.facebook.com/ENHYPEN/photos/pcb.266788548510915/266782931844810/?type=3&theater" ,
+            "https://www.facebook.com/ENHYPEN/photos/pcb.266788548510915/266782931844810/?type=3&theater","https://www.facebook.com/ENHYPEN/photos/pcb.266788548510915/266782931844810/?type=3&theater",
+            " https://www.facebook.com/ENHYPEN/photos/pcb.266788548510915/266782931844810/?type=3&theater", "https://www.facebook.com/ENHYPEN/photos/pcb.266788548510915/266782931844810/?type=3&theater"
+    };
+
+}
