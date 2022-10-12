@@ -1,0 +1,40 @@
+package com.example.kobinath.listviy;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+import adapters.MyTstAdapter;
+import model.Game;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        ArrayList <Game> list = new ArrayList<Game>();
+
+        for(int i = 0 ; i < WinterIsComing.names.length; i++){
+
+            Game character = new Game (WinterIsComing.names[i],WinterIsComing.images[i]);
+            list.add(character);
+            list.add(character);
+        }
+
+        MyTstAdapter adapter = new MyTstAdapter(this,list);
+        ListView listView = findViewById(R.id.listView);
+
+        listView.setAdapter(adapter);
+
+
+
+
+    }
+}
